@@ -24,6 +24,7 @@ ul{
 
 .container {
     display: flex;
+    height: 300px;
 }
 
 .first {
@@ -70,8 +71,14 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+h3 {
+    font-size: 24px;
+    font-style: italic;
+}
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #1F2937
 }
