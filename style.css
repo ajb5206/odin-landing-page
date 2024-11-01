@@ -12,7 +12,11 @@ body {
 .header {
     justify-content: space-between;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
+
+
 
 ul{
     display: flex;
@@ -23,6 +27,14 @@ ul{
 .first {
     align-items: center;
     justify-content: center;
+}
+
+.first > div {
+    padding-left: 200px;
+}
+
+.thor-image {
+    padding-right: 200px;
 }
 
 .second {
