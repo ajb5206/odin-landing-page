@@ -16,12 +16,14 @@ body {
     padding-right: 200px;
 }
 
-
-
 ul{
     display: flex;
     list-style-type: none;
     gap: 15px;
+}
+
+.container {
+    display: flex;
 }
 
 .first {
@@ -45,6 +47,11 @@ ul{
 .second {
     display: flex;
     flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.cards{
+    display: flex;
 }
 .card-image {
     height: 100px;
@@ -57,10 +64,12 @@ img {
     border: 1px solid gray;
     flex: 1;
 }
-.container {
-    display: flex;
-}
 
+.third {
+    background: lightgray;
+    justify-content: center;
+    align-items: center;
+}
 footer {
     display: flex;
     justify-content: center;
